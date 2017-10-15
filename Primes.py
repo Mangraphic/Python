@@ -1,5 +1,5 @@
-t = int(input("Limit of Numbers to count to: "))
-v = int(input("Include non-prime numbers? (1 = YES    0 = NO) "))
+t = int(input("Limit: "))
+v = int(input("Show non-prime numbers? (1 = YES    0 = NO) "))
 
 for n in range(2,t+1):
 	for x in range(2,n):
@@ -8,7 +8,7 @@ for n in range(2,t+1):
 				print(n, 'equals', x, '*', n//x)
 				break
 	else:
-		print(n," is a prime number")
+		print(n,"is a prime number")
 
 print("")
-input("To exit the programm press ENTER")
+input("To exit the programm press enter")
