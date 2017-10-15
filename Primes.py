@@ -12,4 +12,3 @@ for n in range(2,t+1):
 
 print("")
 input("To exit the programm press ENTER")
-print("")
