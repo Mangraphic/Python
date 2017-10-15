@@ -12,3 +12,4 @@ for n in range(2,t+1):
 
 print("")
 input("Zum beenden des Programms drücken Sie Enter")
+print("")
