@@ -1,5 +1,5 @@
 t = int(input("Limit of Numbers to count to: "))
-v = int(input("Include non-prime numbers? (1 = JA    0 = NEIN) "))
+v = int(input("Include non-prime numbers? (1 = YES    0 = NO) "))
 
 for n in range(2,t+1):
 	for x in range(2,n):
